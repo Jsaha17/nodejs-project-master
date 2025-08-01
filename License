@@ -1,0 +1,68 @@
+
+---
+
+## 📁 2. `nodejs-project-master`  
+(General Node.js REST API Backend Project – adjust based on actual functionality)
+
+```markdown
+# 📚 Node.js Backend API – CRUD, Auth, and MySQL Integration
+
+This is a Node.js and Express-based REST API project that demonstrates building a backend system with user management, database integration, and RESTful routes using MySQL and Sequelize.
+
+> 🧩 Created as part of my backend development journey. Demonstrates real-world API design principles and secure user handling.
+
+---
+
+## 📦 Tech Stack
+
+- **Backend:** Node.js, Express.js  
+- **Database:** MySQL, Sequelize  
+- **Security:** JWT, bcryptjs  
+- **Others:** dotenv, Postman, Git
+
+---
+
+## ✨ Features
+
+- RESTful API with structured endpoints
+- CRUD Operations for Users or Items
+- JWT-based Authentication
+- MySQL integration via Sequelize
+- Modular file organization
+- CORS-enabled for frontend consumption
+
+---
+
+## 📁 Project Structure
+
+├── app/
+│ ├── config/
+│ ├── models/
+│ ├── routes/
+│ ├── controllers/
+├── server.js
+├── .env
+├── package.json
+
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Jsaha17/nodejs-project-master.git
+cd nodejs-project-master
+### 2. Install Dependencies
+npm install
+### 3. Add Environment Variables
+Create .env file:
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=yourpassword
+DB_NAME=nodejs_project
+JWT_SECRET=your_jwt_secret
+
+ ### 4. Run Server
+ node server.js
+
